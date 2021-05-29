@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {StorageService} from "./storage.service";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import {StorageService} from "./storage.service";
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [
     StorageService
