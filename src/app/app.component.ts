@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   t = 'Data Binding';
+
+  handleEvent(){
+    console.log('Button Clicked')
+  }
+  handleEvent2(){
+    console.log('key Down')
+  }
 }
